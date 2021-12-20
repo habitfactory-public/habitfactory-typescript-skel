@@ -1,0 +1,14 @@
+{
+  "name": "habitfactory-typescript-skel",
+  "version": "0.0.1",
+  "description": "habitfactory typescript skeleton",
+  "main": "index.js",
+  "author": "Juheon Lee <kirrie@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+	  "build": "rm -rf ./dist/* && tsc"
+  }
+}
